@@ -1,0 +1,37 @@
+.response-wrapper {
+  min-height: 100px;
+  min-width: 40%;
+  max-height: 110px;
+  padding: 40px 20px 40px 20px;
+  background-color: #e8a87c;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.response-input {
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px 0 10px;
+}
+
+.response-button-wrapper {
+  width: 100%;
+}
+
+.response-button {
+  height: 40px;
+  display: flex;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 16px;
+  align-items: center;
+  background-color: #41b3a3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
